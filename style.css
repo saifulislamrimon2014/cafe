@@ -1,0 +1,78 @@
+body{
+	overflow-x: hidden;
+
+}
+html{
+	scroll-behavior: smooth;
+}
+
+
+.bgcol{
+	background-color: #613414;
+	font-family: "BlackChancery";
+	color: #FFFFFF;
+}
+
+.navcol{
+	background-color: #613414;
+}
+.ofrcol{
+	background-color: #be8f6f!important;
+}
+.porcol{
+	background-color: #71401e!important;
+
+}
+.concol{
+	background-color: #71401e!important;
+	
+}
+
+.card{
+	margin-left: 80px;
+}
+.linkcol{
+	background-color: transparent;
+}
+.menu-hover{
+	transition-duration: 0.4s;
+
+}
+.menu-hover:hover{
+  	transform: scale(1.0);
+  	box-shadow: 0px 0px 10px 5px grey;
+	transition: 0.4s;
+}
+
+.zoom img{
+	transition-duration: 0.4s;
+	padding: 5px;
+	background-color: transparent;
+}
+.zoom img:hover{
+	transition: 0.4s;
+	filter: brightness(60%);
+	padding: 0;
+}
+
+.float{
+	position:fixed;
+	width:120px;
+	height:60px;
+	bottom:180px;
+	left:0px;
+	background-color:#d28c5b;
+	color:#FFF;
+	border-radius: 50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	text-decoration: none;
+
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+/*class="btn btn-outline-dark" style="width: 250px; background-color: #d28c5b;"*/
+
