@@ -9,7 +9,8 @@ html{
 
 .bgcol{
 	background-color: #613414;
-	font-family: "BLKCHCRY.TTF";
+	font-family: "BlackChancery";
+	src: URL(BLKCHCRY.TTF);
 	color: #FFFFFF;
 }
 
